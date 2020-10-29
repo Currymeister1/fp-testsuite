@@ -51,4 +51,5 @@ spec =
       testCase "Hammingabstand 3" $ hM ["Haskell","Fortran","Miranda","Clojure"] @?= 6,
       testCase "Hammingabstand 4" $ hM ["Haskell","Java","Prolog"] @?= -1,
       testCase "Hammingabstand 5" $ hM ["01", "11", "XX"] @?= 1
+      testCase "Hammingabstand 6" $ hM ["ab", "bb", "ab"] @?= 1
     ]
