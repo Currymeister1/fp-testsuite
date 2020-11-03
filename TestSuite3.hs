@@ -36,7 +36,7 @@ spec =
       testCase "Eq Leer 3" $ Leer == (IV (3,5)) @?= False,
       testCase "Eq Leer 4" $ (IV (3,5)) == Leer @?= False,
       testCase "Eq Leer 5" $ Leer == (IV (5,3)) @?= True,
-      testCase "Eq Leer 6" $ (IV (6,2)) == (IV (5,3)) @?= True,
+      testCase "Eq Leer 6" $ (IV (6,2)) == (IV (5,3)) @?= False,
       --testCase "Eq ID 1" $ 5 == (IV (5,5)) @?= True,
       testCase "Eq ID 2" $ (IV (5,5)) == (IV (5,5)) @?= True,
       --testCase "Eq ID 3" $ 5 == (IV (3,5)) @?= False,
